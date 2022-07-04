@@ -16,13 +16,12 @@ Use these properties and perform **binary search**.
       
       
 **Algorithm**
-
+```
   1. find mid = (low + high)/2
   2. if arr[mid -1] < arr[mid] && arr[mid] > arr[mid + 1] 
-  3.        then return mid as this is the maximum element
-  4. if arr[mid - 1]> < arr[mid] && arr[mid] < arr[mid + 1] 
-  5.        then mid is in left half, call function in recursion for (mid + 1) and high
+  3.   then return mid as this is the maximum element
+  4. if arr[mid - 1] < arr[mid] && arr[mid] < arr[mid + 1] 
+  5.   then mid is in left half, call function in recursion for (mid + 1) and high
   6. if arr[mid -1 ] > arr[mid] and arr[mid] > arr[mid + 1]
-  7.        then mid is in right half, call function in recursion for low and (mid -1)
-      
-      
+  7.   then mid is in right half, call function in recursion for low and (mid -1)
+``` 
