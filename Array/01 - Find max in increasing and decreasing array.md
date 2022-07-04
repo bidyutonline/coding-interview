@@ -3,7 +3,7 @@
 **Example:** 6 9 15 25 35 50 41 29 23 8
 
 **Intution**
-
+```
 There are three types of element
     - First half is increasing. The elements in first half has the property that the previous element is less than the element and the next element is greater than the element.
       i.e a[i-1] < a[i] < a[i + 1] for any i in first half
@@ -13,7 +13,7 @@ There are three types of element
       i.e. a[i - 1] < a[i] > a[i + 1] if a[i] is maximum.
       
 Use these properties and perform **binary search**.
-      
+```     
       
 **Algorithm**
 ```
